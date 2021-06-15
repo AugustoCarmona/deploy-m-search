@@ -1,70 +1,94 @@
-# Getting Started with Create React App
+# [Marvel´s Hero Search](http://.google.com "Marvel's Hero Search")
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Marvel_Logo.svg/1200px-Marvel_Logo.svg.png)
 
-## Available Scripts
+The following is a project made for the Leniolabs Bootcamp
+It consists of a search engine for super heroes and comics from the marvel publishing house by using the official [Marvel Comis Api](http://https://developer.marvel.com/docs "Marvel Comis Api").
 
-In the project directory, you can run:
+[TOCM]
 
-### `npm start`
+---
+### Tech Stack
+- [React 17](http://https://reactjs.org "React 17")
+- [React Router Dom](http://https://reactrouter.com/web/guides/quick-start "React Router Dom")
+- [Styled Components](http://https://styled-components.com "Styled Components")
+- [Vite](http://https://vitejs.dev "Vite")
+- [Axios](http://https://www.npmjs.com/package/axios "Axios")
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+---
+### Bugs
+- I was still not able to correct this error in console: `:3000/undefined.undefined:1 GET http://localhost:3000/undefined.undefined 404 (Not Found)`
+- Modals are not responsive yet
+- Modals are not responsive yet
+- For some reason, for the moment all modals return the data from the last comic called only.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+---
+### Implemented features
+- When you enter the web app for the first time without any character in the URL, the site shows a random character (in the form of a hero) and so on every time you reload the page.
+- The search contemplate looking for text similarities and name similarities, but only returns the first character result.
+- The way in which the searches are shown is in the form of cards and modals for the detail of the character and the comics.
+- Clicking on a card shows the detail of the character and shows a list of his comics.
 
-### `npm test`
+### Features that need to be implemented
+- Not implemented due to lack of time
+ - Character searches by url
+ - The search must have the possibility to search by comic directly.
+ - The search should be able to be saved in a favorites list.
+- The search should contemplate looking for text similarities and name similarities, but rendering a series of similar characters.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
+### Screenshots:
+![](https://i.ibb.co/tBQdyZv/landing.png)
+> Landing
+<br />
 
-### `npm run build`
+![](https://i.ibb.co/RjcWLr0/main-grid.png)
+> Main grid
+<br />
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![](https://i.ibb.co/LvWPQrt/character-detail.png)
+> Character detail
+<br />
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![](https://i.ibb.co/y8G697y/comics-grid.png)
+> Comics grid
+<br />
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![](https://i.ibb.co/NKQr6cn/modal.png)
+> Modal
+<br />
 
-### `npm run eject`
+![](https://i.ibb.co/XY4225c/mobile-landing.png)
+> Mobile landing
+<br />
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+![](https://i.ibb.co/x3rGqVn/mobile-main-grid.png)
+> Mobile main grid
+<br />
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![](https://i.ibb.co/Rcsxd8M/mobile-character-detail.png)
+> Mobile character detail
+<br />
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+![](https://i.ibb.co/tmfzRBk/mobile-comic-grid.png)
+> Mobile comic grid
+<br />
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+---
+### Run Locally
+1. Clone the project
+`$ git clone https://github.com/AugustoCarmona/stan-ditko.git`
 
-## Learn More
+2. Go to the project directory
+`$ cd stan-ditko/stan-ditko`
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+3. Install dependencies
+`$ npm install`
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+4. Start the server
+`$ npm run dev`
 
-### Code Splitting
+---
+### Author
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Augusto Carmona. [Contact Me!](http://augustocarmona.github.io "Contact Me!")
